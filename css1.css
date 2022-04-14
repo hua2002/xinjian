@@ -1,0 +1,111 @@
+*{
+	margin::0px;
+	padding:0px;
+}
+.header{
+	height:50px;
+	width:98.8%;
+	background:rgb(207,70,70);
+	position:fixed;
+    top:0;
+}
+.banner{
+	height:420px;
+	width:100%;
+	background:rgb(207,70,70);
+	text-align:center;
+}
+.banner .logo{
+	margin-top:50px;
+	margin-left:auto;
+}
+.banner .btm{
+	font-size:18px;
+	color:#eee;
+	border:1px #eee solid;
+	padding:10px 15px;
+}
+.banner .btm:hover{
+	color:#fff;
+	border-color:#fff;
+	}
+.banner a{
+	text-decoration:none;}
+.banner p{
+	font-size:22px;
+	color:#fff;
+	margin:50px auto 60px;
+}
+.main{
+	height:410px;
+	width:1100px;
+	margin:60px auto;
+}
+.main .box1{
+	height:200px;
+	width:500px;
+	float:left;
+}
+.main .box2{
+	height:200px;
+	width:500px;
+	float:right;
+}
+.main .box3{
+	height:200px;
+	width:500px;
+	float:left;
+}
+.main .box4{
+	height:200px;
+	width:500px;
+	float:right;
+}
+.main h1{
+	font-family:"Courier New", Courier, monospace;
+}
+.main p{
+	font-size:21px;
+	margin-top:10px;
+}
+.footer{
+	height:86px;
+	width:100%;
+	background:#ccc;
+}
+.footer .text{
+	text-align:center;
+	color:#999;
+}
+.hdtext{
+	height:50px;
+	width:1100px;
+	margin:0px auto;
+
+}
+.header .logo{
+	float:left;
+	font-size:18px;
+	line-height:50px;
+}	
+.header .nav{
+	float:right;
+	margin:auto;
+}
+.header ul{
+	list-style:none;}
+.header li{
+	float:left;
+}
+.header a{
+	color:#ccc;
+	text-decoration:none;}
+.header a:hover{
+	color:#fff;}
+.header .nav a{
+	font-size:14px;
+	line-height:50px;
+	display:block;
+	padding:0 15px;}
+body{
+	font-family:Verdana, Geneva, sans-serif;}
